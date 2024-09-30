@@ -1,0 +1,20 @@
+{
+    "name": "woutvw/svgator",
+    "type": "library",
+    "license": "MIT",
+    "description": "A simple and flexible PHP package for generating scalable vector graphics (SVG) programmatically. This package allows developers to create complex SVG images through an intuitive and object-oriented API, offering full control over shapes, paths, text, gradients, and more. Ideal for dynamic image generation and use in web applications, the library supports a wide range of customization options while adhering to SVG standards.",
+    "authors": [
+        {
+            "name": "Wout Van Wonterghem",
+            "email": "woutvanwonterghem@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "WoutVW\\SVGator\\": "src/"
+        }
+    }
+}

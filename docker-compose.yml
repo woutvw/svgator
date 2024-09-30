@@ -1,0 +1,10 @@
+version: '3'
+name: 'svg-test'
+services:
+  web:
+    container_name: svg-test
+    image: php:8.3.4-apache
+    ports:
+      - "80:80"
+    volumes:
+      - .:/var/www/html
